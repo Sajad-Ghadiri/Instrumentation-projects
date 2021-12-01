@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=VCC Pin=esp-8
+Change Component Designator: OldDesignator=Driver NewDesignator=U?
+Added Component: Designator=PHONIEX(PHONIEX-2PIN)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Reg1(LM2576)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Reg2(LM2576)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S?(SPDT Subminiator)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Company"; Value = "E.P.I.L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design date"; Value = "2011/11/02"; VariantName = "[No Variations]"
+Added Component: Designator=SP1(SPDT Subminiator)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Company"; Value = "E.P.I.L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design date"; Value = "2011/11/02"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3 Pin=esp-8
+Added Pin To Net: NetName=D18-TX1 Pin=esp-21
+Added Pin To Net: NetName=D19-RX1 Pin=esp-22
+Added Pin To Net: NetName=GND Pin=PHONIEX-1
+Added Pin To Net: NetName=Reg Pin=Reg1-1
+Added Pin To Net: NetName=Net1_2 Pin=Reg1-2
+Added Pin To Net: NetName=GND Pin=Reg1-3
+Added Pin To Net: NetName=NetCRegOut1_1 Pin=Reg1-4
+Added Pin To Net: NetName=GND Pin=Reg1-5
+Added Pin To Net: NetName=GND Pin=Reg1-6
+Added Pin To Net: NetName=Reg Pin=Reg2-1
+Added Pin To Net: NetName=Net2_2 Pin=Reg2-2
+Added Pin To Net: NetName=GND Pin=Reg2-3
+Added Pin To Net: NetName=NetCRegOut2_1 Pin=Reg2-4
+Added Pin To Net: NetName=GND Pin=Reg2-5
+Added Pin To Net: NetName=GND Pin=Reg2-6
+Added Pin To Net: NetName=NetDiodePow1_2 Pin=S?-1
+Added Pin To Net: NetName=15v Pin=S?-2
+Added Pin To Net: NetName=NetDiodePow1_2 Pin=SP1-1
+Added Pin To Net: NetName=Reg Pin=SP1-2
+Added Pin To Net: NetName=NetDiodePow1_1 Pin=DiodePow1-1
+Added Pin To Net: NetName=NetDiodePow1_1 Pin=PHONIEX-2
+Added Net: Name=NetDiodePow1_1
+Added Member To Class: ClassName=smart_farm Member=Component PHONIEX PHONIEX-2PIN
+Added Member To Class: ClassName=smart_farm Member=Component Reg1 LM2576-5V
+Added Member To Class: ClassName=smart_farm Member=Component Reg2 LM2576-3V
+Added Member To Class: ClassName=smart_farm Member=Component S? Switch SPDT_Subminiator
+Added Member To Class: ClassName=smart_farm Member=Component SP1 Switch SPDT_Subminiator
